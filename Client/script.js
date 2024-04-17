@@ -1,5 +1,5 @@
 //here i used fetch to fetch the api there is also the another way which is axios but this mainly for large scale so use fetch here
-fetch('http://localhost:3000/v1/api/quiz')
+fetch('https://altstack.onrender.com/v1/api/quiz')
     .then(response => response.json())
     .then(questions => {
         const form = document.getElementById('quiz');
@@ -29,7 +29,7 @@ document.getElementById('quiz').addEventListener('submit', (event) => {
     for (const pair of formData.entries()) {
         answers.push(parseInt(pair[1]));
     }
-    fetch('http://localhost:3000/v1/api/submit', {
+    fetch('https://altstack.onrender.com/v1/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
