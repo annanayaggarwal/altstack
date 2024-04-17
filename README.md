@@ -1,7 +1,7 @@
-Step 1: Clone or fork the project
+project for the ALTSTACK_SOFT_SLOTIONS_LLP
 
-Step 2: go to server and run command "npm install"
+simply run the project by run npm i in Server 
 
-Step 3: run server npm start
+and then nodemon index.js
 
-Step 4: run client html file
+then start the live server from index.html
