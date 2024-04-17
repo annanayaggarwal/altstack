@@ -1,0 +1,10 @@
+body{
+    background-color: whitesmoke;
+}
+.correct {
+    color: rgb(16, 131, 16);
+}
+
+.incorrect {
+    color: rgb(214, 52, 52);
+}
