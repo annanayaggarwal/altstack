@@ -1,3 +1,4 @@
+//here i used fetch to fetch the api there is also the another way which is axios but this mainly for large scale so use fetch here
 fetch('http://localhost:3000/v1/api/quiz')
     .then(response => response.json())
     .then(questions => {
